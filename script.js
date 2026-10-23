@@ -1,5 +1,24 @@
 // Nirjala Shrestha — Portfolio interactions
 (function () {
+  // Dark / light theme toggle (initial theme set inline in <head>)
+  const themeBtn = document.getElementById('themeToggle');
+  function syncThemeBtn() {
+    const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (themeBtn) {
+      themeBtn.textContent = dark ? '☀️' : '🌙';
+      themeBtn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    }
+  }
+  if (themeBtn) {
+    syncThemeBtn();
+    themeBtn.addEventListener('click', function () {
+      const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('nirjala-theme', next); } catch (e) {}
+      syncThemeBtn();
+    });
+  }
+
   // Footer year
   document.getElementById('year').textContent = new Date().getFullYear();
 
