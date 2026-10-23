@@ -209,6 +209,8 @@ h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.2}
 /* Footer */
 .site-footer{border-top:1px solid var(--line);padding:26px 0;background:var(--card)}
 .footer-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:.95rem}
+.footer-seo{padding-bottom:22px}
+.footer-seo p{color:var(--muted);font-size:.85rem;opacity:.85}
 
 /* Dark-theme component fixes */
 :root[data-theme="dark"] .badge-done{background:#0f2a2d;color:var(--teal-dark)}
