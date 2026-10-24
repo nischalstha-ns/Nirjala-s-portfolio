@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nirjala-s-portfolio.vercel.app/sitemap.xml
+Sitemap: https://nirjalashrestha4.com.np/sitemap.xml

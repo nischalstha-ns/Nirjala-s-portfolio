@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://nirjala-s-portfolio.vercel.app/</loc>
+    <loc>https://nirjalashrestha4.com.np/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://nirjala-s-portfolio.vercel.app/nirjala-shrestha.jpg</image:loc>
+      <image:loc>https://nirjalashrestha4.com.np/nirjala-shrestha.jpg</image:loc>
       <image:title>Nirjala Shrestha</image:title>
       <image:caption>Nirjala Shrestha — Bachelor of Physiotherapy (BPT) student at KUSMS College, Nepal</image:caption>
     </image:image>
