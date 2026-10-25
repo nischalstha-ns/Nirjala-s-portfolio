@@ -14,5 +14,5 @@ Deployed on Vercel from this repository.
 
 ## Contact
 
-- 📞 9808548597
+- 📞 9764638392
 - ✉️ nirjalashrestha09@gmail.com
