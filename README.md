@@ -15,4 +15,4 @@ Deployed on Vercel from this repository.
 ## Contact
 
 - 📞 9808548597
-- ✉️ nirjalashrestha04@gmail.com
+- ✉️ nirjalashrestha09@gmail.com
